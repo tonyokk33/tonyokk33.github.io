@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff; 
+    color: #000000;            
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; 
+        color: #ffffff;            
+    }
+}
+
+
+#marcador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-success {
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#divButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+#timer-display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#btn-start {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn-pause {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn-reset {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
